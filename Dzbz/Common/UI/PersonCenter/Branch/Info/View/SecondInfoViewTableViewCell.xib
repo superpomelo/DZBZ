@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="53" id="KGk-i7-Jjw" customClass="SecondInfoViewTableViewCell" customModule="Dzbz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acD-sP-KPe">
+                        <rect key="frame" x="0.0" y="0.0" width="356" height="53"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yN-4Q-kW2">
+                                <rect key="frame" x="15" y="17.5" width="7" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_go2" translatesAutoresizingMaskIntoConstraints="NO" id="7DR-qI-Lqw">
+                                <rect key="frame" x="329" y="20.5" width="12" height="12"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEv-Sx-ldG">
+                                <rect key="frame" x="317" y="17.5" width="7" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7DR-qI-Lqw" secondAttribute="trailing" constant="15" id="Eql-86-9qi"/>
+                            <constraint firstItem="7DR-qI-Lqw" firstAttribute="centerY" secondItem="acD-sP-KPe" secondAttribute="centerY" id="a25-QY-57x"/>
+                            <constraint firstItem="7DR-qI-Lqw" firstAttribute="leading" secondItem="AEv-Sx-ldG" secondAttribute="trailing" constant="5" id="dz8-ab-Lr7"/>
+                            <constraint firstItem="3yN-4Q-kW2" firstAttribute="centerY" secondItem="acD-sP-KPe" secondAttribute="centerY" id="feG-Jw-Wja"/>
+                            <constraint firstItem="AEv-Sx-ldG" firstAttribute="centerY" secondItem="acD-sP-KPe" secondAttribute="centerY" id="jRx-1k-pg7"/>
+                            <constraint firstItem="3yN-4Q-kW2" firstAttribute="leading" secondItem="acD-sP-KPe" secondAttribute="leading" constant="15" id="nHP-Bm-QVr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="acD-sP-KPe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7Mu-ZF-3wW"/>
+                    <constraint firstAttribute="trailing" secondItem="acD-sP-KPe" secondAttribute="trailing" id="P6F-yp-Irn"/>
+                    <constraint firstItem="acD-sP-KPe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="b0v-lr-Iuv"/>
+                    <constraint firstAttribute="bottom" secondItem="acD-sP-KPe" secondAttribute="bottom" id="bah-7F-PQr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="leftLabel" destination="3yN-4Q-kW2" id="Bbe-Kt-SfY"/>
+                <outlet property="rightLabel" destination="AEv-Sx-ldG" id="FBu-Ax-QuG"/>
+            </connections>
+            <point key="canvasLocation" x="2.8985507246376816" y="42.522321428571423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_go2" width="12" height="12"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

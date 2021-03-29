@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CYLTabBarController/Core (1.29.0)
+  - CYLTabBarController/Lottie (1.29.0):
+    - CYLTabBarController/Core
+    - lottie-ios (~> 2.5.3)
+  - FDFullscreenPopGesture (1.1)
+  - GKPhotoBrowser/Core (2.1.7)
+  - GKPhotoBrowser/SD (2.1.7):
+    - GKPhotoBrowser/Core
+    - SDWebImage (~> 5.0)
+  - HandyJSON (5.0.2)
+  - HWPanModal (0.8.1)
+  - IQKeyboardManager (6.5.6)
+  - Kingfisher (4.10.1)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SVProgressHUD (2.2.5)
+  - ZLPhotoBrowser-objc (1.0.3):
+    - SDWebImage
+
+DEPENDENCIES:
+  - Alamofire
+  - CYLTabBarController/Lottie (~> 1.29.0)
+  - FDFullscreenPopGesture (= 1.1)
+  - GKPhotoBrowser/SD
+  - HandyJSON
+  - HWPanModal
+  - IQKeyboardManager
+  - Kingfisher
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - ZLPhotoBrowser-objc
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CYLTabBarController
+    - FDFullscreenPopGesture
+    - GKPhotoBrowser
+    - HandyJSON
+    - HWPanModal
+    - IQKeyboardManager
+    - Kingfisher
+    - lottie-ios
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+    - ZLPhotoBrowser-objc
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GKPhotoBrowser: c03c9db2f586d8982782a89244cd9f5a4453030c
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  HWPanModal: d8cf5682e7ed1d8f5f3e986f1f7e693d3f565a3d
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  ZLPhotoBrowser-objc: de73eb06fbd171a7c7e51cf8b181f506bcf09e94
+
+PODFILE CHECKSUM: 52e0ca17f442033e345d000036f540acba7ce217
+
+COCOAPODS: 1.10.0
