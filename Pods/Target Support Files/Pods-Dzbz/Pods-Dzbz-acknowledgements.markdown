@@ -320,6 +320,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+## UMCommon
+
+Copyright 2011 - 2020 umeng.com. All rights reserved.
+
+
+## UMDevice
+
+Copyright 2011 - 2020 umeng.com. All rights reserved.
+
+
 ## ZLPhotoBrowser-objc
 
 MIT License

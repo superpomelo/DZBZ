@@ -40,12 +40,16 @@ class HomeCenterViewController: UIViewController,UITableViewDelegate,UITableView
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        initscrollerView()
 
-        initscrollerView2()
 //        initMyTableView()
          
         self.fd_prefersNavigationBarHidden = true
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.2) {
+            self.initscrollerView()
+
+            self.initscrollerView2()
+        }
+       
     }
 //    override func viewWillAppear(_ animated: Bool) {
        

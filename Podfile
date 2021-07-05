@@ -10,7 +10,9 @@ target ‘Dzbz’ do
      #约束
    pod 'Masonry' 
    pod 'MJRefresh'
-    
+         #必须集成
+    pod 'UMCommon' #由原来的UMCCommon变为UMCommon
+    pod 'UMDevice'
 
      # 加载网络图片（类似sdwebimage）
     pod 'Kingfisher'

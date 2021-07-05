@@ -77,6 +77,9 @@
 		1F9D35C72600B0DB007F485A /* JLPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D35C32600B0DB007F485A /* JLPageControl.m */; };
 		1F9D35C82600B0DB007F485A /* UIView+JLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D35C42600B0DB007F485A /* UIView+JLExtension.m */; };
 		1F9D35D32601D0FC007F485A /* LoginAndRRequestDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D35D22601D0FC007F485A /* LoginAndRRequestDatas.swift */; };
+		1FA0B942262E8631003D540E /* GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0B93C262E8631003D540E /* GDTrackTool.m */; };
+		1FA0B943262E8631003D540E /* UIViewController+GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0B93D262E8631003D540E /* UIViewController+GDTrackTool.m */; };
+		1FA0B944262E8631003D540E /* UIControl+GDTrackTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA0B940262E8631003D540E /* UIControl+GDTrackTool.m */; };
 		1FA7C8CC25FF62F50076C72B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7C8CB25FF62F50076C72B /* AppDelegate.swift */; };
 		1FA7C8D325FF62F50076C72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7C8D125FF62F50076C72B /* Main.storyboard */; };
 		1FA7C8D525FF62F70076C72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7C8D425FF62F70076C72B /* Assets.xcassets */; };
@@ -216,6 +219,12 @@
 		1F9D35C32600B0DB007F485A /* JLPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPageControl.m; sourceTree = "<group>"; };
 		1F9D35C42600B0DB007F485A /* UIView+JLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLExtension.m"; sourceTree = "<group>"; };
 		1F9D35D22601D0FC007F485A /* LoginAndRRequestDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndRRequestDatas.swift; sourceTree = "<group>"; };
+		1FA0B93C262E8631003D540E /* GDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTrackTool.m; sourceTree = "<group>"; };
+		1FA0B93D262E8631003D540E /* UIViewController+GDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GDTrackTool.m"; sourceTree = "<group>"; };
+		1FA0B93E262E8631003D540E /* UIControl+GDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+GDTrackTool.h"; sourceTree = "<group>"; };
+		1FA0B93F262E8631003D540E /* GDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTrackTool.h; sourceTree = "<group>"; };
+		1FA0B940262E8631003D540E /* UIControl+GDTrackTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+GDTrackTool.m"; sourceTree = "<group>"; };
+		1FA0B941262E8631003D540E /* UIViewController+GDTrackTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GDTrackTool.h"; sourceTree = "<group>"; };
 		1FA7C8C825FF62F50076C72B /* Dzbz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dzbz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA7C8CB25FF62F50076C72B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FA7C8D225FF62F50076C72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -771,6 +780,19 @@
 			path = JLCycleScrollerView;
 			sourceTree = "<group>";
 		};
+		1FA0B93B262E8631003D540E /* GDTrackTool */ = {
+			isa = PBXGroup;
+			children = (
+				1FA0B93C262E8631003D540E /* GDTrackTool.m */,
+				1FA0B93D262E8631003D540E /* UIViewController+GDTrackTool.m */,
+				1FA0B93E262E8631003D540E /* UIControl+GDTrackTool.h */,
+				1FA0B93F262E8631003D540E /* GDTrackTool.h */,
+				1FA0B940262E8631003D540E /* UIControl+GDTrackTool.m */,
+				1FA0B941262E8631003D540E /* UIViewController+GDTrackTool.h */,
+			);
+			path = GDTrackTool;
+			sourceTree = "<group>";
+		};
 		1FA7C8BF25FF62F50076C72B = {
 			isa = PBXGroup;
 			children = (
@@ -851,6 +873,7 @@
 		1FA7C90925FF65E70076C72B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1FA0B93B262E8631003D540E /* GDTrackTool */,
 				1F0CD4F3260D744B00AFAF03 /* PDFy预览 */,
 				1F0CD493260C200F00AFAF03 /* 2d视频播放器 */,
 				1F4D4B6326033C5B008C4F3D /* 图片和视频压缩 */,
@@ -1267,6 +1290,7 @@
 				1F9D357A260079EF007F485A /* DanceCenterViewController.swift in Sources */,
 				1F4D4B75260352FE008C4F3D /* InfoViewController.swift in Sources */,
 				1F4D4BAE2605A865008C4F3D /* BirViewController.swift in Sources */,
+				1FA0B944262E8631003D540E /* UIControl+GDTrackTool.m in Sources */,
 				1FA7C998260044B90076C72B /* RegisterViewController.swift in Sources */,
 				1F9D358A26007C31007F485A /* FileCenterViewController.swift in Sources */,
 				1FA7C93825FF65E70076C72B /* HWAlertViewController.m in Sources */,
@@ -1277,6 +1301,7 @@
 				1F4D4B6626033C5B008C4F3D /* VideoAndPictureCompression.m in Sources */,
 				1F0CD4B3260C200F00AFAF03 /* LandscapeRightViewController.m in Sources */,
 				1FA7C93925FF65E70076C72B /* YsyPopHelper.m in Sources */,
+				1FA0B942262E8631003D540E /* GDTrackTool.m in Sources */,
 				1F0CD4FB260DC1A600AFAF03 /* DownLoadRequestDatas.swift in Sources */,
 				1F9D35C52600B0DB007F485A /* JLCycScrollDefaultCell.m in Sources */,
 				1FA7C93625FF65E70076C72B /* HWTransientAlertViewController.m in Sources */,
@@ -1299,6 +1324,7 @@
 				1F4D4B5E26032833008C4F3D /* SettingViewController.swift in Sources */,
 				1F9D355F26006000007F485A /* FirstHomeCenterTableViewCell.swift in Sources */,
 				1F9D35C72600B0DB007F485A /* JLPageControl.m in Sources */,
+				1FA0B943262E8631003D540E /* UIViewController+GDTrackTool.m in Sources */,
 				1FA7C93E25FF65E70076C72B /* JsonString.m in Sources */,
 				1F0CD4B4260C200F00AFAF03 /* WMPlayerModel.m in Sources */,
 				1FA7C93C25FF65E70076C72B /* MyTimeInterval.m in Sources */,

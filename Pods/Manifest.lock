@@ -20,6 +20,9 @@ PODS:
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
   - SVProgressHUD (2.2.5)
+  - UMCommon (7.2.5):
+    - UMDevice
+  - UMDevice (1.1.0)
   - ZLPhotoBrowser-objc (1.0.3):
     - SDWebImage
 
@@ -36,6 +39,8 @@ DEPENDENCIES:
   - MJRefresh
   - SDWebImage
   - SVProgressHUD
+  - UMCommon
+  - UMDevice
   - ZLPhotoBrowser-objc
 
 SPEC REPOS:
@@ -53,6 +58,8 @@ SPEC REPOS:
     - MJRefresh
     - SDWebImage
     - SVProgressHUD
+    - UMCommon
+    - UMDevice
     - ZLPhotoBrowser-objc
 
 SPEC CHECKSUMS:
@@ -69,8 +76,10 @@ SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UMCommon: b5aabdb9fad44330ff8738d9bc46ebf93db14bf2
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
   ZLPhotoBrowser-objc: de73eb06fbd171a7c7e51cf8b181f506bcf09e94
 
-PODFILE CHECKSUM: 52e0ca17f442033e345d000036f540acba7ce217
+PODFILE CHECKSUM: 83b62ceac1b88781d49545eab5d1fcb8e86dde69
 
 COCOAPODS: 1.10.0

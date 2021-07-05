@@ -20,11 +20,15 @@
 #import "UIButton+fontColorStyle.h"
 #import "UserInfoManager.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
+#import "IsIphoneX.h"
 
 #import "JLCycleScrollerView.h"
 #import "JsonString.h"
 #import "VideoAndPictureCompression.h"
 #import "DetailViewController.h"
 #import "WBQLPreviewController.h"
-
+#import "GDTrackTool.h"
+#import <UMCommon/UMCommon.h>
+#import "UIViewController+GDTrackTool.h"
+#import "UIControl+GDTrackTool.h"
 #endif /* Dzbz_Bridging_Header_h */

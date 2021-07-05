@@ -10,12 +10,23 @@ import UIKit
 class DetailSViewController: DetailViewController {
     @IBOutlet weak var playBottomView: UIView!
     
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.fd_prefersNavigationBarHidden = true
-        self.wmPlayer.frame = playBottomView.bounds
-        playBottomView.addSubview(wmPlayer)
-        wmPlayer.play()
+        if IsIphoneX.isIphoneX() == false {
+            self.topConstraint.constant = -20.0
+
+        }
+    
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.2) {
+            self.wmPlayer.frame = self.playBottomView.frame
+            self.playBottomView.addSubview(self.wmPlayer)
+            self.wmPlayer.play()
+        }
+
+
         // Do any additional setup after loading the view.
     }
 
